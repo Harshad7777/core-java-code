@@ -1,0 +1,165 @@
+MCQ
+_______________
+
+Question 1
+_____________________________________________________________________
+Example
+package org.techhub;
+class Demo {
+    public static void main(String args[]) 
+    {    
+         int x; 
+         x = 10;
+         x = x >> 1;
+         System.out.println(x);
+    } 
+}
+Explanation:
+
+>> is right shift operator → divides by 2 for each shift.
+
+10 >> 1 → 10 / 2 = 5
+ 
+Question2
+______________________________________________________________
+package org.techhub;
+class Demo {
+    public static void main(String args[]) 
+    {    
+			int a = 1;
+			int b = 2;
+			int c = 3;
+			a |= 4;   // a = 1 | 4 = 5
+			b >>= 1;  // b = 2 >> 1 = 1
+			c <<= 1;  // c = 3 << 1 = 6
+			a ^= c;   // a = 5 ^ 6 = 3
+			System.out.println(a + " " + b + " " + c);
+    } 
+}
+3 1 6
+ 
+Question3
+___________________________________________________
+public class UnaryOperators {
+        	public static void main(String[] args) {
+		int i = 5;
+		System.out.print(i++);  // prints 5, i becomes 6
+		System.out.print(++i);  // increments first → 7, prints 7
+		System.out.print(i--);  // prints 7, then i becomes 6
+		System.out.print(--i);  // decrements first → 5, prints 5
+
+        	}
+}
+
+
+5775
+ 
+Question4
+___________________________________________
+Example
+public class ShiftOperators {
+        	public static void main(String[] args) 
+			{
+                    	System.out.print(8<<2);
+                    	System.out.print(",");
+                    	System.out.print(8>>1);
+        	}
+}
+ 
+ Explanation:
+
+8 << 2 → multiply by 4 → 8 * 4 = 32
+
+8 >> 1 → divide by 2 → 8 / 2 = 4
+
+✅ Output:
+
+32,4
+Question5
+__________________________________________________________
+ 
+public class BitwiseNotOperator{
+        	public static void main(String[] args) {
+                    	int i = 50;
+						System.out.print(~i);     // bitwise NOT of 50 → -(50+1) = -51
+						System.out.print(",");
+						System.out.print(~--i);   // i=49, ~(49)=-(49+1) = -50
+						System.out.print(",");
+						System.out.print(~++i);   // i=50 again, ~(50)=-(50+1)=-51
+
+        	}
+}
+ 
+ -51,-50,-51
+ 
+Question6
+________________________________________________________
+public class RelationalOperators {
+        	public static void main(String[] args) {
+				int a = 4;
+				int b = 5;
+				System.out.print(a>b);  // false
+				System.out.print(",");
+				System.out.print(a<b);  // true
+
+        	}
+}
+
+false,true
+
+ 
+Question7
+________________________________________________________________
+public class LogicalOperators {
+        	public static void main(String[] args) {
+                    	int a = 5;
+						int b = 10;
+						boolean flag = a>b;   // false
+						System.out.println(!flag); // !false = true
+}
+true
+
+ 
+Question8
+________________________________________________________
+public class TernaryOperators {
+        	public static void main(String[] args) {
+			int a = 10;
+			String result = a > 5 ? "Hello 1" : "Hello 2";
+			System.out.println(result);
+
+        	}
+}
+Hello 1
+
+ 
+Question9
+__________________________________________________________
+class Ques
+{ 
+ public static void main(String args[])
+ {  
+	 byte b = 12; 
+     int y = b; 
+     b = b + 10; 
+     System.out.println(b); 
+  } 
+}
+
+Explanation:
+
+b + 10 → promotes b to int, so result is int.
+
+Assigning int → byte without casting → ❌ Compilation Error.
+
+public class Demo
+{
+    public static void main(String args[])
+    {  
+        byte b = 12; 
+        int y = b; 
+        b = (byte)(b + 10);   // explicit narrowing conversion
+        System.out.println(b); 
+    } 
+}
+

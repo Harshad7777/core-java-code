@@ -28,7 +28,7 @@ public class factorsofnumber_17
 }
 
 
->javac factorsofnumber17.java
+/* >javac factorsofnumber17.java
 >java factorsofnumber17
 enter the positive number:
 10
@@ -36,4 +36,4 @@ the factor of 10 are:
 1
 2
 5
-10
+10 */

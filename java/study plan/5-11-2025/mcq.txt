@@ -1,0 +1,117 @@
+MCQ
+------------------------------------------------------
+Q1.
+int[] arr = {5, 10, 15, 20};
+int sum = 0;
+for(int i = 0; i < arr.length; i++) {
+    sum += arr[i];
+}
+System.out.println(sum);
+
+✅ Output: 50
+Explanation: 5 + 10 + 15 + 20 = 50
+
+-------------------------------------------------------
+Q2.
+int[] arr = {2, 4, 6, 8};
+System.out.println(arr[arr.length - 1]);
+
+arr.length = 4
+
+arr[arr.length - 1] = arr[3] = 8
+
+✅ Output: 8
+
+------------------------------------------------------
+Q3.
+int[] arr = {1, 2, 3, 4, 5};
+System.out.println(arr[5]);
+
+Index starts from 0, so valid indices are 0–4.
+
+arr[5] is out of bounds ❌
+
+❌ Runtime Error:
+ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+
+------------------------------------------------
+Q4.
+int[] a = {10, 20, 30};
+int[] b = a.clone();
+b[1] = 99;
+System.out.println(a[1]);
+
+
+a.clone() creates a new array (deep copy for primitives).
+
+Changing b[1] does not affect a[1].
+
+✅ Output: 20
+
+------------------------------------------------
+Q5.
+char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+System.out.println(vowels[2]);
+
+Index 2 → third element = 'i'
+
+✅ Output: i
+
+------------------------------------------------
+Q6.
+int[][] arr = new int[2][3];
+arr[0][0] = 1;
+arr[1][2] = 5;
+System.out.println(arr[1][2]);
+
+arr[1][2] = 5
+
+✅ Output: 5
+
+------------------------------------------------
+Q7.
+int[][] arr = { {1, 2, 3}, {4, 5, 6} };
+System.out.println(arr[0].length);
+
+arr[0] → {1, 2, 3} → length = 3
+
+✅ Output: 3
+
+------------------------------------------------
+Q8.
+int[] arr = {10, 20, 30, 40, 50};
+for(int i = arr.length - 1; i >= 0; i--) {
+    System.out.print(arr[i] + " ");
+}
+
+
+Prints array in reverse order.
+
+✅ Output:
+50 40 30 20 10
+
+------------------------------------------------
+Q9.
+int[] a = new int[0];
+System.out.println(a.length);
+
+
+Creates an empty array of size 0.
+
+✅ Output: 0
+
+------------------------------------------------
+Q10.
+int[] arr = new int[3];
+arr[0] = 2;
+arr[1] = arr[0] * 2;
+arr[2] = arr[1] * 2;
+System.out.println(arr[2]);
+
+✅ Output: 8
+
+
+
+
+
+------------------------------------------------

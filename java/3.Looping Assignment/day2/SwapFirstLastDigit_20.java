@@ -46,7 +46,7 @@ public class SwapFirstLastDigit_20
 		
 		int first,last,middle,temp,digit;
 		int count = 0;
-		temp =num ;
+		temp = num ;
 		while(num!=0)//findindg digits in given num
 		{
 			num = num/10 ;//1234 123 12 1 0 false

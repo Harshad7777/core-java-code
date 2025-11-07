@@ -20,7 +20,8 @@ public class FirstLastDigit_18
 		//We keep dividing the number by 10 until it becomes a single-digit number.
 		//because value of first digit grater than 10 become less then got a fist digit
         int firstDigit = num;
-        while (firstDigit >= 10) {
+        while (firstDigit >= 10) 
+		{
             firstDigit = firstDigit / 10;
         }
         System.out.println("First digit: " + firstDigit);

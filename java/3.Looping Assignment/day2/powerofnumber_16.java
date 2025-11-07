@@ -14,11 +14,12 @@ public class powerofnumber_16
 		
 		System.out.println("enter the power :");
 		int p = sc.nextInt();
+		
 		int i=1;
 		int sum =1;
 		while( p>=i)
 		{	
-			sum = sum*=b;
+			sum = sum*b;
 			
 			//System.out.println("");
 			i++;
@@ -26,7 +27,7 @@ public class powerofnumber_16
 		System.out.println("power of a number is "+sum);
 	}
 }
-
+/* 
 >javac powerofnumber16.java
 
 >java powerofnumber16
@@ -34,4 +35,4 @@ enter the base :
 2
 enter the power :
 2
-power of a number is 4
+power of a number is 4 */
