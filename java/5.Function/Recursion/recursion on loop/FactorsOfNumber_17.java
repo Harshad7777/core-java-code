@@ -1,5 +1,5 @@
-Q17. Write a java program to find all factors of a number.
-
+/* Q17. Write a java program to find all factors of a number.
+ */
 
 import java.util.*;
 
@@ -31,3 +31,12 @@ public class FactorsOfNumber_17
         findFactors(num, 1);
     }
 }
+
+/* java FactorsOfNumber_17.java
+Enter a number: 10
+Factors of 10 are:
+1
+2
+5
+10
+ */

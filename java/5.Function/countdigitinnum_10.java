@@ -15,8 +15,7 @@ public class countdigitinnum_10
 	public static void countdigitinnum(int num)
 	{
 		int count = 0;
-		
-		
+
 		if(num==0)
 		{
 			count = 1;

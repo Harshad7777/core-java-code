@@ -2,22 +2,25 @@
 /* Q16. Write a java program to find power of a number. */
 
 
+
 import java.util.*;
 public class Powerofnumber_16
 {
     // Recursive function to calculate power
-    static int power(int base, int exponent)
+    static int power(int b, int p)
     {
         // Base case: anything raised to power 0 is 1
-        if (exponent == 0)
+        if (p == 0)
             return 1;
 
         // Recursive case
-        return base * power(base, exponent - 1);
+        return b * power(b, p - 1);
     }
 
-    public static void main(String[] args)
-    {
+    
+	public static void main(String[] args)
+    
+	{
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the base: ");

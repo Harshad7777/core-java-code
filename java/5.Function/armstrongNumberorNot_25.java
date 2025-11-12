@@ -18,7 +18,7 @@ public class armstrongNumberorNot_25
 	}
 	public static void Armstrong(int num)
 	{
-		int count=0;
+		int count = 0;
 		int sum = 0;
 		int temp = num ;
 		
@@ -100,3 +100,14 @@ public class ArmstrongNumberorNot25 {
 }
 
 */	
+
+/* java armstrongNumberorNot_25.java
+enter number
+153
+153 Armstrong Number
+ */
+/* | Digit | Calculation | Result    |
+| ----- | ----------- | --------- |
+| 3     | 3³ = 27     | sum = 27  |
+| 5     | 5³ = 125    | sum = 152 |
+| 1     | 1³ = 1      | sum = 153 | */

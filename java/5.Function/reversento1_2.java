@@ -8,8 +8,8 @@ public class reversento1_2
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter number:");
 		
+		System.out.println("enter number:");
 		int n = sc.nextInt();
 		System.out.println("reverse natural number form"+n+"1 is:");
 		
@@ -40,7 +40,9 @@ reverse natural number form101 is:
 4
 3
 2
-1 */
+1 
+
+
 		
 		
 		

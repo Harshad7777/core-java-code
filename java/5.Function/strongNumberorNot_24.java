@@ -29,11 +29,12 @@ public class strongNumberorNot_24
 			while(rem!=0)
 			{
 			    f=f*rem;
+				/* factorial(5) → 5 × 4 × 3 × 2 × 1 = 120 */
 				rem--;
 			}
 			
-			sum+=f;
-		
+			sum+=f; 
+	
 			num/=10;
 			
 		}
@@ -43,11 +44,15 @@ public class strongNumberorNot_24
 		}
 		else
 		{
-			System.out.println(temp + " it is a not strong number");
+			System.out.print
+			ln(temp + " it is a not strong number");
 		}
 		
 	}	
 }		
+
+/* 145 → 1! + 4! + 5! = 1 + 24 + 120 = 145 ✅
+123 → 1! + 2! + 3! = 9 ≠ 123 ❌ */
  
 
 /*

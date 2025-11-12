@@ -1,13 +1,12 @@
-Q18. Find the First and Last Digit of a Number (Using Recursion)
+
+/*  Q19. Find the Sum of First and Last Digit (Using Recursion) */
 
 import java.util.*;
 
-public class FirstAndLastDigit_18
+public class SumOfFirstLastDigit_19
 {
-    // Recursive function to find the first digit
     static int firstDigit(int num)
     {
-        // Base case: when number has only one digit left
         if (num < 10)
             return num;
         return firstDigit(num / 10);
@@ -22,7 +21,17 @@ public class FirstAndLastDigit_18
         int last = num % 10;
         int first = firstDigit(num);
 
+        int sum = first + last;
+
         System.out.println("First digit: " + first);
         System.out.println("Last digit: " + last);
+        System.out.println("Sum of first and last digit: " + sum);
     }
 }
+/* 
+java SumOfFirstLastDigit_19.java
+Enter a number: 123
+First digit: 1
+Last digit: 3
+Sum of first and last digit: 4
+ */

@@ -1,7 +1,7 @@
 /* Q7. Write a java program to find the sum of all even numbers between 1 to n.
  */
 
-/* 
+
 import java.util.*;
 public class sumofallevennaturalnumton_7
 {
@@ -18,7 +18,7 @@ public class sumofallevennaturalnumton_7
 		public static void sumofallevennaturalnumton(int n)
 		{
 			int i=1;
-			int sum =0;
+			int sum = 0;
 			while( i<=n)	
 			{
 				if(i%2==0)
@@ -29,8 +29,8 @@ public class sumofallevennaturalnumton_7
 			}
 			System.out.println("sum of all even number of 1 to "+n+ " is "+sum);
 		}	
-}	 */
-
+}	
+/* 
 import java.util.*;
 public class sumofallevennaturalnumton_7
 {
@@ -60,7 +60,7 @@ public class sumofallevennaturalnumton_7
 			return sum;
 		}	
 }	
-
+ */
 /* java sumofallevennaturalnumton_7.java
 enter value of n
 4
