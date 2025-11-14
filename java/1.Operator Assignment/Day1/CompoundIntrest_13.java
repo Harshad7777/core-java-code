@@ -24,7 +24,7 @@ public class Day2
 		double Amount = PrincipalAmount * Math.pow((1 + Intrest / 100), Time);
 		double compundInterest = Amount - PrincipalAmount;
 
-		System.out.println("intrest is a:" + calculatethesimpleintrest);
+		System.out.println("simpleintrest is a:" + calculatethesimpleintrest);
 		System.out.println("compundInterest is a:" + compundInterest);
 
 	}
@@ -41,7 +41,7 @@ public class Day2
 // 	enter the amount:10000
 // enter the intrest:12
 // 	enter time:4
-// 	intrest is a:4800.0
+// 	simpleintrest is a:4800.0
 // 	compundInterest is a:5735.193600000006
 
 

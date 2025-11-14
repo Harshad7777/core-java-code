@@ -14,7 +14,7 @@ public class CircleArea_5
 		
 		double diameter= 2 * radius;
 		double circumference= 2*3.14*radius;
-		double area =3.14 * radius *radius;
+		double area = 3.14 * radius *radius;
 		
 		System.out.println("diameter:"+diameter);
 		System.out.println("circumference:"+circumference);
