@@ -23,7 +23,7 @@ public class alphabeticornot_36
 			}
 		}
 	}
-	
+/* 	
 >javac alphabeticornot.java
 >java alphabeticornot
 enter any character
@@ -33,4 +33,4 @@ A is an not Alphabet
 >java alphabeticornot
 enter any character
 1
-1 is an not Alphabet
+1 is an not Alphabet */

@@ -50,7 +50,7 @@ public class HCF36 {
 }
  */
  
- import java.util.*;
+import java.util.*;
  
  public class GCDoftwonumbers_36
  {
@@ -64,7 +64,7 @@ public class HCF36 {
 		 System.out.println("enter second num");
 		 int b = sc.nextInt();
 		 
-		  int hcf =1;
+		  int hcf = 1;
 		 //find min value fron a,b	
 		 int min = (a<b) ? a : b;
 		 
@@ -81,3 +81,11 @@ public class HCF36 {
 		 
 	 }
  }
+ 
+/*  
+ java GCDoftwonumbers_36.java
+enter first num
+36
+enter second num
+60
+HCF (GCD) of 36 and 60 is: 12 */

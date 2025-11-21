@@ -37,7 +37,7 @@ public class trianglevalidnot_32
 		}
 	}
 	
->javac trianglevalidnot.java
+/* >javac trianglevalidnot.java
 >java trianglevalidnot
 enter number
 3
@@ -45,5 +45,5 @@ enter number
 4
 enter number
 5
-triangle is valid
+triangle is valid */
 	

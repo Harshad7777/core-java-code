@@ -27,7 +27,7 @@ public class checkprofitorloss_37
 		}
 	}
 
->javac checkprofitorloss.java
+/* >javac checkprofitorloss.java
 >java checkprofitorloss
 enter cost price
 50
@@ -40,4 +40,4 @@ enter cost price
 110
 enter selling price
 100
-loss
+loss */

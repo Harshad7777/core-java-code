@@ -22,10 +22,10 @@
 	}
 }
 
->javac absolutedifference10ornot51.java
+/* >javac absolutedifference10ornot51.java
 >java absolutedifference10ornot51
 enter first 25
 25
 enter second 12
 12
-difference is not grater 10
+difference is not grater 10 */

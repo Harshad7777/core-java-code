@@ -4,43 +4,44 @@ If performance rating > 8, give 15% bonus; else if rating > 5, give 10% bonus; o
 */
 
 import java.util.*;
- public class performancerating_57
- {
-	 public static void main (String x[])
-	 {
-		Scanner sc = new Scanner(System.in);
-		 
-		System.out.println ("enter performance rating");
-		int rating	 = sc.nextInt();
-		
-		System.out.println ("enter Net salary");
-		int salary	 = sc.nextInt();
-		
-		int salaryplusbonus,bonus;
-		
-		if(rating>=8)
-		{
-			salaryplusbonus = salary + salary*15/100;
-			bonus = salary*15/100;
-		}
-		else if (rating>=5)
-		{
-			salaryplusbonus = salary + (salary*10/100);
-			bonus = salary*10/100;
-		}
-		else
-		{
-			salaryplusbonus = salary + (salary*0/100);
-			bonus = salary*0/100;
-		}
-		
-		System.out.println("according to your rating "+rating);
-		System.out.println("your bonus is "+bonus);
-		System.out.println("and your salary plus bonus is "+salaryplusbonus);
-	 }
- }
+
+public class performancerating_57
+{
+    public static void main (String x[])
+    {
+        Scanner sc = new Scanner(System.in);
+         
+        System.out.println("Enter performance rating:");
+        int rating = sc.nextInt();
+        
+        System.out.println("Enter Net salary:");
+        int salary = sc.nextInt();
+        
+        int bonus, salaryplusbonus;
+
+        if(rating >= 8)
+        {
+            bonus = salary * 15 / 100;
+        }
+        else if(rating >= 5)
+        {
+            bonus = salary * 10 / 100;
+        }
+        else
+        {
+            bonus = 0;
+        }
+        
+        salaryplusbonus = salary + bonus;
+
+        System.out.println("According to your rating " + rating);
+        System.out.println("Your bonus is " + bonus);
+        System.out.println("Your salary plus bonus is " + salaryplusbonus);
+    }
+}
+
  
- 
+/*  
 >javac performancerating57.java
 
 >java performancerating57
@@ -68,4 +69,4 @@ enter Net salary
 10000
 according to your rating 4
 your bonus is 0
-and your salary plus bonus is 10000
+and your salary plus bonus is 10000 */

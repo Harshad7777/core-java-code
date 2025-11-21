@@ -27,9 +27,9 @@ public class sumfirstlastdigit_19
 }
 
 
->javac sumfirstlastdigit19.java
+/* >javac sumfirstlastdigit19.java
 
 >java sumfirstlastdigit19
 enter number
 12345
-12345 sum of first and last digit : 6
+12345 sum of first and last digit : 6 */

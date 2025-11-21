@@ -45,6 +45,7 @@ public class SwapFirstLastDigit_20
         int num = sc.nextInt(); //12345
 		
 		int first,last,middle,temp,digit;
+		
 		int count = 0;
 		temp = num ;
 		while(num!=0)//findindg digits in given num

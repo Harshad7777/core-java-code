@@ -14,10 +14,10 @@ public class PrimeCheck1tonth_29
 		
 		int num = sc.nextInt();
 		
-		int count = 0;
-		
-		for(int i=2; i<=num; i++)
+		for(int i=2; i<=num; i++)	
 		{
+			int count = 0;
+			
 			for(int j=1; j<=i; j++)
 			{
 				if(i%j==0)

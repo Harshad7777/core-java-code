@@ -32,7 +32,6 @@ public class netsalaryofemployee_28
 	System.out.println("totalsalary"+totalsalary);
 	System.out.println("Amttax"+Amttax);
 	System.out.println("netsalaryofemployee"+netsalaryofemployee);
-	
  }
 }
 

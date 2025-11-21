@@ -2,7 +2,6 @@
 Q6. Write a java program to find the sum of all natural numbers between 1 to n.
 */
 
-
 import java.util.*;
 public class sumofallnaturalnumton6
 {
@@ -25,6 +24,7 @@ public class sumofallnaturalnumton6
 		System.out.println("sum of all natural numbers between 1 to " + n +" is " + sum);
 	}
 }
+
 /* 
 import java.util.*;
 

@@ -28,13 +28,5 @@ public class dayToyearMonthWeek_18
 enter days
 365
 days to years1.0
-remaining0.0
-remaining1.0
-
-
->java dayToyearMonthWeek
-enter days
-365
-days to years1.0
 remaining12.166666666666666
 remaining52.142857142857146 */

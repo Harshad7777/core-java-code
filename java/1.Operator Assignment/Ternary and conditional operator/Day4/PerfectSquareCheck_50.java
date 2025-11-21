@@ -6,22 +6,23 @@ import java.util.*;
 
 public class PerfectSquareCheck_50
 {
-    public static void main(String  x[] ) 
-	{
+    public static void main(String x[]) 
+    {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        // find square root
-        //double sqrt = Math.sqrt(num);
-		double sqrt = num*num;
+        // Find square root
+        double sqrt = Math.sqrt(num);
 
+        // Check if sqrt is an integer
         String result = (sqrt == (int) sqrt) ? "Perfect Square" : "Not Perfect Square";
 
         System.out.println(num + " is " + result);
     }
 }
+
 /* 
 >javac PerfectSquareCheck.java
 >java PerfectSquareCheck

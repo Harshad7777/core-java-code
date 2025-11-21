@@ -7,7 +7,7 @@ public class sumevennum7
 {
 	public static void main (String x[])
 	{
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("enter value of n:");
 		int n = sc.nextInt();
@@ -23,9 +23,9 @@ public class sumevennum7
 		System.out.println(sum+" is a sum of even numbers between 1 to "+n);
 	}
 }
-
+/* 
 >javac sumevennum7.java
 >java sumevennum7
 enter value of n:
 10
-30 is a sum of even numbers between 1 to 10
+30 is a sum of even numbers between 1 to 10 */

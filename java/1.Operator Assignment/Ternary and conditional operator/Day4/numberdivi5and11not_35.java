@@ -22,9 +22,9 @@ public class numberdivi5and11not_35
 			}
 		}
 	}
-	
+/* 	
 >javac numberdivi5and11not.java
 >java numberdivi5and11not
 enter number
 55
-55number is divisible by 5 and 11
+55number is divisible by 5 and 11 */

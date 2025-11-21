@@ -16,7 +16,7 @@ public class powerofnumber_16
 		int p = sc.nextInt();
 		
 		int i=1;
-		int sum =1;
+		int sum = 1;
 		while( p>=i)
 		{	
 			sum = sum*b;

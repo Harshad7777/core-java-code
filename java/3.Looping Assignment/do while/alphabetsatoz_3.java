@@ -20,7 +20,6 @@ public class alphabetsatoz_3
 			ch++;
 		}
 		while(ch<='z');
-		
 	}
 }
 

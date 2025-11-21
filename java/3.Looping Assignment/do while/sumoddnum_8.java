@@ -23,9 +23,9 @@ public class sumoddnum8
 		System.out.println(sum+" is a sum of odd numbers between 1 to "+n);
 	}
 }
-
+/* 
 >javac sumoddnum8.java
 >java sumoddnum8
 enter value of n:
 10
-25 is a sum of odd numbers between 1 to 10
+25 is a sum of odd numbers between 1 to 10 */

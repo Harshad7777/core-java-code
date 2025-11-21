@@ -12,7 +12,6 @@ Example : A number is called happy if it leads to 1 after a sequence of steps wh
 */
 
 import java.util.*;
-
 	public class HappyNumberorNo_27
 	{
 		public static void main (String x[])
@@ -50,7 +49,7 @@ import java.util.*;
 		}
 	}
 	
-	/* C:\Users\harsh\Downloads\java course notes\java\3.Looping Assignment\day2>java HappyNumberorNo27.java
+/* C:\Users\harsh\Downloads\java course notes\java\3.Looping Assignment\day2>java HappyNumberorNo27.java
 enter number
 19
 next value = 82

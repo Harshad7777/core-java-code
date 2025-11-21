@@ -2,27 +2,31 @@
 Q25. Write a java program to check whether number is palindrome or not. 
 */
 import java.util.Scanner;
+
 public class Palindrome_25
 {
- public static void main(String x[])
- {
- Scanner sc = new Scanner(System.in);
- System.out.println("enter the number: ");
- int num = sc.nextInt();
- 
-	int first = num%10;
-	int last = num / 100; 
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number: ");
+        int num = sc.nextInt();
 
- //compare first  and last digit in 3number variable if it come same then it is palindrome
- //last become first
- //fist become last
- //int pal = num%10*100 + ((num/10)%10)*10 + num / 100;
- 
+        int temp = num;
+        int rev = 0; 
 
- String res = (first == last )? "Palindrome" : "Not - Palindrome";
- System.out.println(res);
- }
+        while(temp > 0)
+        {
+            int rem = temp % 10;
+            rev = rev * 10 + rem;
+            temp /= 10;
+        }
+
+        String res = (rev == num) ? "Palindrome" : "Not - Palindrome";
+        System.out.println(res);
+    }
 }
+
+
 
 /* >javac Palindrome.java
 >java Palindrome

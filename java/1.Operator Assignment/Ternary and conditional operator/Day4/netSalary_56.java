@@ -5,29 +5,30 @@ taxRate = 12%
  Find netSalary.
  */
  
- import java.util.*;
- public class netSalary_56
- {
-	 public static void main (String x[])
-	 {
-		Scanner sc = new Scanner(System.in);
-		 
-		System.out.println ("enter basic salary");
-		int salary = sc.nextInt();
-		
-		int tax = 12;
-		int taxamt = salary*tax/100;
-		int netSalary = salary - salary*tax/100;
-		
-		System.out.println("after applying net salary is "+netSalary);
-		System.out.println("tax is " +taxamt);
-	 }
- }
- 
->javac netSalary56.java
->java netSalary56
-enter basic salary
+import java.util.*;
+
+public class netSalary_56
+{
+    public static void main (String x[])
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter basic salary:");
+        int salary = sc.nextInt();
+        
+        int tax = 12;                          // 12%
+        int taxamt = salary * tax / 100;       // Calculate tax amount
+        int netSalary = salary - taxamt;       // Net salary after tax
+        
+        System.out.println("Tax Amount: " + taxamt);
+        System.out.println("Net Salary after tax: " + netSalary);
+    }
+}
+
+/*  
+java netSalary_56.java
+Enter basic salary:
 35000
-after applying net salary is 30800
-tax is 4200
+Tax Amount: 4200
+Net Salary after tax: 30800*/
  

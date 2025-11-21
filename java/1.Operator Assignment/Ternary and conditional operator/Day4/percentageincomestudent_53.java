@@ -33,18 +33,18 @@ public class percentageincomestudent_53
 	}
 }
 
->javac percentageincomestudent53.java
+/* >javac percentageincomestudent53.java
 
 >java percentageincomestudent53
 enter the percentage
 80
 enter the income
 150000
-accordig percentage and income of a student areEligible
-
+accordig percentage and income of a student areEligible */
+/* 
 >java percentageincomestudent53
 enter the percentage
 60
 enter the income
 250000
-accordig percentage and income of a student are not Eligible
+accordig percentage and income of a student are not Eligible */

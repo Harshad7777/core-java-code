@@ -17,7 +17,7 @@ public class PrimeCheck_21
 		int i = 1;
 		int count = 0;
 		
-		while(i<=num)
+		while(i<=num) 
 		{
 			if(num%i == 0)
 			{

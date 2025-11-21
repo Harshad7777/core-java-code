@@ -12,7 +12,6 @@ public class StrongNumberorNot_24
 		Scanner sc = new Scanner (System.in);
 		
 		System.out.println(" enter number");
-	
 		
 		int sum=0;
 		
@@ -22,7 +21,7 @@ public class StrongNumberorNot_24
 		
 		while(num!=0)
 		{	
-			 int rem = num % 10; //5
+			int rem = num % 10; //5
 			int f = 1;
 			while(rem!=0)
 			{

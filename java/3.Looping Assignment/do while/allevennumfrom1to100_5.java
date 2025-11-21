@@ -21,7 +21,7 @@ public class allevennumfrom1to100
 	}
 }
 
-
+/* 
 >javac allevennumfrom1to100.java
 
 >java allevennumfrom1to100
@@ -65,7 +65,7 @@ public class allevennumfrom1to100
 76
 78
 80
-82
+82402
 84
 86
 88
@@ -76,4 +76,4 @@ public class allevennumfrom1to100
 98
 100
 
->
+> */

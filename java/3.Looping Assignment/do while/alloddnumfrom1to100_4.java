@@ -20,7 +20,7 @@ public class alloddnumfrom1to100
 		}
 	}
 }
-
+/* 
 
 >javac alloddnumfrom1to100.java
 
@@ -76,4 +76,4 @@ public class alloddnumfrom1to100
 97
 99
 
->
+> */

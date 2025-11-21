@@ -10,30 +10,42 @@ import java.util.*;
 public class Pronicnumber_45 
 {
     public static void main(String x[])
-	{
+    {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number: ");
-        int num = sc.nextInt(); 
+        int num = sc.nextInt();
+
+        System.out.println("Pronic numbers from 1 to " + num + ":");
 
         for (int i = 1; i <= num; i++) 
-		{
-            int sum = 0;
-
-            // find proper divisors of i
-            for (int j = 1; j <= i / 2; j++)
-				{
-                if (i % j == 0) 
-				{
-                    sum += j;
+        {
+            // check if i is pronic
+            for (int x1 = 1; x1 * (x1 + 1) <= i; x1++)
+            {
+                if (i == x1 * (x1 + 1))
+                {
+                    System.out.println(i);
+                    break; // exit inner loop once pronic found
                 }
             }
-
-            // check if abundant
-            if (sum > i)
-				{
-					System.out.println(i);
-				}
-        }	
+        }
     }
 }
+/* Example for i = 6
+x = 1 → 1×2 = 2
+x = 2 → 2×3 = 6 ✔ → print 6 */
+
+/* java Pronicnumber_45.java
+Enter number:
+100
+Pronic numbers from 1 to 100:
+2
+6
+12
+20
+30
+42
+56
+72
+90 */

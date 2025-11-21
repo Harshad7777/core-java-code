@@ -23,7 +23,7 @@ public class ScoreGrade_49
 }
 
 
->javac ScoreGrade.java
+/* >javac ScoreGrade.java
 
 >java ScoreGrade
 Enter score (0-100): 95
@@ -40,3 +40,4 @@ Result: Average
 >java ScoreGrade
 Enter score (0-100): 40
 Result: poor
+ */

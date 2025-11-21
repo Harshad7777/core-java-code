@@ -24,7 +24,7 @@ public class NeonorNot_26
 		
 		while(square>0)
 		{
-			sum += square %10; //1,8
+			sum += square %10; // 1,8
 			square/=10; //8,0
 		}
 		

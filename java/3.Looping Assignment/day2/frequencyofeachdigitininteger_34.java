@@ -36,11 +36,10 @@ Continues until digit 9.
 				{
 					count++;
 				}
-					temp/=10;
+				temp/=10;
 			}
 			System.out.println("digit"+ d +"-->"+ count +"times");
 		}
-		
 	 }
  }
 /*  

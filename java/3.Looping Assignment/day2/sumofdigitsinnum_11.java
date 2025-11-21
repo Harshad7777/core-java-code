@@ -12,7 +12,7 @@ public class sumofdigitsinnum_11
 		System.out.println("enter number");
 		int num = sc.nextInt();
 		
-		int sum =0;
+		int sum = 0;
 		
 		while (num != 0)
 		{

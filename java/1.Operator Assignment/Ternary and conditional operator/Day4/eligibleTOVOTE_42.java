@@ -22,7 +22,7 @@ public class eligibleTOVOTE_42
 		}
 		}	
 }
-
+/* 
 >javac eligibleTOVOTE.java
 >java eligibleTOVOTE
 enter your age
@@ -32,4 +32,4 @@ you are not eligible to cast your vote
 >java eligibleTOVOTE
 enter your age
 18
-you are eligible to cast your vote
+you are eligible to cast your vote */

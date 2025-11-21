@@ -1,3 +1,4 @@
+
 /*
 Q30. Write a Java program to check whether a number is a multiple of both 3 and 5 using logical AND (&&) operator.
 Input: 15

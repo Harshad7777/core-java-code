@@ -27,7 +27,7 @@ public class leapyear_38
 		}
 	}
 	
-	
+/* 	
 >javac leapyear.java
 
 >java leapyear
@@ -39,4 +39,4 @@ enter year
 >java leapyear
 enter year
 2025
-2025 is not a leap year.
+2025 is not a leap year. */

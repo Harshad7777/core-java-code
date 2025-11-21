@@ -21,8 +21,8 @@ public class findquotientandremainder_29
 	
 	double remainder = dividend%divisor;
 	
-	System.out.println("after divison dividend by divisor"+Quotient);
-	System.out.println("after divison dividend by divisor"+remainder);
+	System.out.println("after divison dividend by divisor Quotient is"+Quotient);
+	System.out.println("after divison dividend by divisor remainder is"+remainder);
  }
 }
 
@@ -33,5 +33,5 @@ enter basic divisor:
 3
 enter the dividend :
 20
-after divison dividend by divisor6.666666666666667
-after divison dividend by divisor2.0 */
+after divison dividend by divisor Quotient is 6.666666666666667
+after divison dividend by divisor remainder is 2.0 */

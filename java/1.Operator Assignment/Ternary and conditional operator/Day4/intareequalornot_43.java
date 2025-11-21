@@ -25,7 +25,7 @@ public class intareequalornot_43
 		}
 	}	
 }
-
+/* 
 >javac intareequalornot.java
 
 >java intareequalornot
@@ -40,5 +40,5 @@ enter your first integers
 10
 enter your first integers
 20
-given two integers not are equal
+given two integers not are equal */
 

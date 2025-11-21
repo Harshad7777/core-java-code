@@ -12,6 +12,34 @@ since, sum == product == 8
 */
 
 import java.util.Scanner;
+
+public class Spynumber_26
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number: ");
+        int num = sc.nextInt();
+
+        int temp = num;
+        int sum = 0, product = 1;
+
+        while(temp > 0)
+        {
+            int digit = temp % 10;
+            sum += digit;
+            product *= digit;
+            temp /= 10;
+        }
+
+        if(sum == product)
+            System.out.println("Number is Spy Number");
+        else
+            System.out.println("Number is Not Spy Number");
+    }
+}
+
+/* import java.util.Scanner;
 public class Spynumber_26
 {
  public static void main(String x[])
@@ -30,7 +58,7 @@ public class Spynumber_26
 	int product =  d4 * d3 * d2 * d1 ;
 	
 	String res = (sum == product) ? " Number Is Spy Number " : " Number Is Not Spy Number  ";
-	System.out.println(res);
+	System.out.println(res); */
 	/*
   System.out.println(d5);
   System.out.println(d4);

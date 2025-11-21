@@ -36,3 +36,13 @@ public class perfectnumber_22
         }
     }
 }
+/* 
+java perfectnumber_22.java
+Enter the number:
+6
+1 are divisor
+2 are divisor
+3 are divisor
+6 is a perfect number
+
+ */

@@ -3,6 +3,7 @@ Q25. Write a java program to Check Number Is Armstrong Number or Not.
 Example : A number is thought of as an Armstrong number if the sum of its own digits raised to the power number of digits gives the number itself.
       For example, 0, 1, 153, 370, 371, 407 are three-digit Armstrong numbers and, 1634, 8208, 9474 are four-digit Armstrong numbers and there are many more.
 */
+
 import java.util.*;
 public class ArmstrongNumberorNot_25
 {
@@ -13,7 +14,7 @@ public class ArmstrongNumberorNot_25
 		System.out.println("enter number");
 		int num = sc.nextInt(); //153
 		
-		int count=0;
+		int count = 0;
 		int sum = 0;
 		int temp = num ;
 		
@@ -26,7 +27,7 @@ public class ArmstrongNumberorNot_25
 		num=temp;
 		while(num>0)
 		{	
-			int digit = num %10;  //3,5,1
+			int digit = num % 10;  //3,5,1
 			
 			int digitpower = 1;
 			
@@ -94,4 +95,10 @@ public class ArmstrongNumberorNot25 {
     }
 }
 
-*/	
+*/
+
+
+/* java ArmstrongNumberorNot_25.java
+enter number
+153
+153 Armstrong Number */	

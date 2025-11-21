@@ -10,7 +10,6 @@ public class printallnaturalnum1ton_1
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		
 		System.out.println("enter value of n");
 		int n = sc.nextInt();
 		

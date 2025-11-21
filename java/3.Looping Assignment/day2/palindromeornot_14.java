@@ -17,8 +17,8 @@ public class palindromeornot_14
 		
 		while(num !=0)
 		{
-			int digit = num % 10;   //get last digit
-			reversenum = reversenum * 10 + digit;//Build reversed number
+			   //get last digit
+			reversenum = reversenum * 10 + (num % 10);//Build reversed number
 			num/=10; //remove last digit
 			
 		}
