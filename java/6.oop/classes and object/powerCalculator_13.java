@@ -3,7 +3,7 @@ Create a class PowerCalculator with a method power that calculates base raised t
 Explanation: Demonstrates looping or recursion. */
 
 
-public class powerCalculator_13
+class powerCalculator
 {
 	public int power(int base,int exp)
 	{
@@ -15,13 +15,17 @@ public class powerCalculator_13
 		}
 		return result;
 	}
+}
+public class powerCalculator_13
+{
 	public static void main(String x[])
 	{
-		powerCalculator_13 obj = new powerCalculator_13();
+		powerCalculator obj = new powerCalculator();
 		
 		System.out.println("power :"+obj.power(2,5));
 	}
 }
+	
 
 /* java powerCalculator_13.java
 power :32 */

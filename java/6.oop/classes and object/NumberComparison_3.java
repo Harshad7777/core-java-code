@@ -3,7 +3,7 @@ Create a class NumberComparison with a method compare that checks if two numbers
 Explanation: Introduces conditional statements in a method. */
 
 
-public class NumberComparison_3
+class NumberComparison
 {
 	public void compare(int a, int b)
 	{
@@ -14,14 +14,17 @@ public class NumberComparison_3
 		else
 			System.out.println(a+" is less than "+b);
 	}
-	
+}
+
+public class NumberComparison_3
+{
 	public static void main(String x[])
 	{
-		NumberComparison_3 obj = new NumberComparison_3();
+		NumberComparison obj = new NumberComparison();
 		
 		obj.compare(10,20);
 	}
 }
-
+	
 /* java NumberComparison_3.java
 10 is less than 20 */

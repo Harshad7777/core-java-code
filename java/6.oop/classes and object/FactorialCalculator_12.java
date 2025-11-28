@@ -3,7 +3,7 @@ Create a class FactorialCalculator with a method findFactorial to compute the fa
 Explanation: Focuses on iterative or recursive logic. */
 
 
-public class FactorialCalculator_12
+class FactorialCalculator
 {
 	public int findFactorial(int n)
 	{
@@ -13,11 +13,13 @@ public class FactorialCalculator_12
 			fact*=i;
 		}
 			return fact;
-		
 	}	
-		public static void main(String x[])
+}
+public class FactorialCalculator_12
+{
+	public static void main(String x[])
 		{
-			FactorialCalculator_12 obj = new FactorialCalculator_12();
+			FactorialCalculator obj = new FactorialCalculator();
 			
 			System.out.println("Factorial:" +obj.findFactorial(5));
 		}

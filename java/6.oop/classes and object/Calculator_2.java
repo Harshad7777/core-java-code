@@ -2,7 +2,7 @@
 Create a class Calculator with methods add, subtract, multiply, and divide for two numbers. Call them from the main method and print results.
 Explanation: Teaches basic arithmetic operations using methods. */
 
-public class Calculator_2
+class Calculator
 {
 	//method for addition	
 	public int add(int a,int b)
@@ -28,18 +28,21 @@ public class Calculator_2
 		}
 		return (double)a/b;
 	}
+}
 
-
-public static void main(String x[])
+public class Calculator_2
 {
-	Calculator_2 calc = new Calculator_2();
-	
-	int a = 20;
-	int b = 10;
-	
-	System.out.println("Additon: "+calc.add(a,b));
-	System.out.println("Subtration "+ calc.subtract(a,b));
-	System.out.println("multiplication :"+calc.multiply(a,b));
-	System.out.println("Division: "+ calc.divide(a,b));
+	public static void main(String x[])
+	{
+		Calculator calc = new Calculator();
+		
+		int a = 20;
+		int b = 10;
+		
+		System.out.println("Additon: "+calc.add(a,b));
+		System.out.println("Subtration "+ calc.subtract(a,b));
+		System.out.println("multiplication :"+calc.multiply(a,b));
+		System.out.println("Division: "+ calc.divide(a,b));
+	}
 }
-}
+

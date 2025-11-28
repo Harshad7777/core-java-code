@@ -2,7 +2,7 @@
 Create a class DigitSumCalculator with a method calculateSum that computes the sum of digits of a number.
 Explanation: Practices loops for digit extraction.
  */
-public class DigitSumCalculator_17 
+class DigitSumCalculator
 {
     public int calculateSum(int n) 
 	{
@@ -14,10 +14,12 @@ public class DigitSumCalculator_17
         }
         return sum;
     }
-
+}
+public class DigitSumCalculator_17 
+{
     public static void main(String[] args) 
 	{
-        DigitSumCalculator_17 obj = new DigitSumCalculator_17();
+        DigitSumCalculator obj = new DigitSumCalculator();
 		
         System.out.println("Sum of digits: " + obj.calculateSum(987));
     }

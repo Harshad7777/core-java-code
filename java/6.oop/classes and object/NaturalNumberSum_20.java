@@ -2,21 +2,23 @@
 Create a class NaturalNumberSum with a method calculateSum that computes the sum of the 1 to Nth natural numbers.
 Explanation: Reinforces loops and arithmetic series formula. */
 
-public class NaturalNumberSum_20
+public class NaturalNumberSum
 {
     public int calculateSum(int n) 
 	{
         return n*(n + 1)/2;
 		// Formula method Reinforces loops and arithmetic series formula
     }
-    public static void main(String[] args)
+}
+public class NaturalNumberSum_20
+{
+	 public static void main(String[] args)
 	{
-        NaturalNumberSum_20 obj = new NaturalNumberSum_20();
+        NaturalNumberSum obj = new NaturalNumberSum();
 		
         System.out.println("Sum: " + obj.calculateSum(10));
     }
 }
-
 /* 
 
 
@@ -30,7 +32,6 @@ n * (n + 1) / 2
 
  
 */
-
 /* java NaturalNumberSum_20.java
 Sum: 55 */
 

@@ -3,7 +3,7 @@ Create a class NumberReverser with a method reverse that reverses a given intege
 Explanation: Covers basic loops for number manipulation.
  */
 
-public class NumberReverser_11
+public class NumberReverser
 {
 	public int reverse(int n)
 	{
@@ -16,14 +16,19 @@ public class NumberReverser_11
 		}
 		return rev;
 	}
+}
+public class NumberReverser_11
+{
 	public static void main(String x[])
 	{
-		NumberReverser_11 obj = new NumberReverser_11();
+		NumberReverser obj = new NumberReverser();
 
 
 		System.out.println("Reverse : "+obj.reverse(12345));
 	}
+
 }
+	
 /* 
 java NumberReverser_11.java
 Reverse : 54321 */

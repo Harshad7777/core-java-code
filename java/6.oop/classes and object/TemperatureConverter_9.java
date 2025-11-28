@@ -3,20 +3,25 @@ Create a class TemperatureConverter with a method convertToFahrenheit that conve
 Explanation: Demonstrates unit conversion logic. */
 
 
-public class TemperatureConverter_9
+public class TemperatureConverter
 {
 	public double convertToFahrenheit(double c)
 	{
 		return(c*9/5)+32;
 	}
+}
 	
+public class TemperatureConverter_9
+{
 	public static void main(String x[])
 	{
-		TemperatureConverter_9 obj = new TemperatureConverter_9();
+		TemperatureConverter obj = new TemperatureConverter();
 		
 		System.out.println("Faherenhite :"+obj.convertToFahrenheit(37));
 	}
 }
+	
+
 
 /* 
 java TemperatureConverter_9.java

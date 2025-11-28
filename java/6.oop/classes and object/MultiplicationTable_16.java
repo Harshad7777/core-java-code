@@ -3,7 +3,7 @@ Create a class MultiplicationTable with a method printTable to print the table o
 Explanation: Explains nested loops and formatted printing. */
 
 
-public class MultiplicationTable_16
+class MultiplicationTable
 {
     public void printTable(int n) 
 	{
@@ -12,15 +12,19 @@ public class MultiplicationTable_16
             System.out.println(n + " x " + i + " = " + (n * i));
         }
     }
+}
 
-    public static void main(String[] args) 
+public class MultiplicationTable_16
+{
+	public static void main(String[] args) 
 	
 	{
-        MultiplicationTable_16 obj = new MultiplicationTable_16();
+        MultiplicationTable obj = new MultiplicationTable();
 		
         obj.printTable(5);
     }
 }
+    
 
 
 /* java MultiplicationTable_16.java

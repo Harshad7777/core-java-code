@@ -2,7 +2,7 @@
 Create a class PrimeChecker with a method isPrime to check if a number is prime.
 Explanation: Introduces number theory logic. */
 
-public class PrimeChecker_Optimized
+class PrimeChecker
 {
     public boolean isPrime(int n)
     {
@@ -16,15 +16,19 @@ public class PrimeChecker_Optimized
         }
         return true; // prime
     }
-
+}
+public class PrimeChecker_14
+{
     public static void main(String[] args)
     {
-        PrimeChecker_Optimized obj = new PrimeChecker_Optimized();
+        PrimeChecker obj = new PrimeChecker();
 
         int num = 17;
         System.out.println(num + " is prime? " + obj.isPrime(num));
     }
 }
+
+
 
 
 /* java primeCheker_14.java

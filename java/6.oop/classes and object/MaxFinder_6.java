@@ -3,7 +3,7 @@ Create a class MaxFinder with a method findMax that returns the largest of three
 Explanation: Enhances problem-solving using conditional statements.
  */
 
-public class MaxFinder_6
+class MaxFinder
 {
 	public int findMax(int a,int b,int c)
 	{
@@ -12,14 +12,20 @@ public class MaxFinder_6
 		else if(b>=c)
 			return b;
 		else
-			return c;
-		
+			return c;	
 	}
+}
+public class MaxFinder_6
+{
 	public static void main (String x[])
 	{
-		MaxFinder_6 obj = new MaxFinder_6();
+		MaxFinder obj = new MaxFinder();
 		
 		System.out.println("max :"+obj.findMax(10,20,30));
 	}
-	
-	}
+}
+
+/* 
+java MaxFinder_6.java
+max :30 */
+

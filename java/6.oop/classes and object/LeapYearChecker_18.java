@@ -2,7 +2,7 @@
 Create a class LeapYearChecker with a method isLeapYear to check if a year is a leap year.
 Explanation: Implements logical conditions for leap year calculation. */
 
-public class LeapYearChecker_18 
+class LeapYearChecker 
 {
 
     public boolean isLeapYear(int year) 
@@ -14,12 +14,18 @@ public class LeapYearChecker_18
 		}
         return false;
     }
-
-    public static void main(String x[]) 
-	
+}
+public class LeapYearChecker_18 
+{
+	public static void main(String x[]) 
 	{
-        LeapYearChecker_18 obj = new LeapYearChecker_18();
+        LeapYearChecker obj = new LeapYearChecker();
 		
         System.out.println("Leap year? " + obj.isLeapYear(2024));
     }
 }
+/* 
+java LeapYearChecker_18.java
+Leap year? true */
+    
+

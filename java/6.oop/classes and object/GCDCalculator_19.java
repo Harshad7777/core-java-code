@@ -4,7 +4,7 @@ Create a class GCDCalculator with a method findGCD to compute the greatest commo
 Explanation: Uses the Euclidean algorithm.
 */
 
-public class GCDCalculator_19 
+public class GCDCalculator 
 {
     public int findGCD(int a, int b) 
     {
@@ -17,14 +17,19 @@ public class GCDCalculator_19
         }
         return a;       // when b becomes 0, 'a' is the GCD
     }
-
-    public static void main(String[] args) 
+}
+public class GCDCalculator_19 
+{
+	public static void main(String[] args) 
     {
-        GCDCalculator_19 obj = new GCDCalculator_19();
+        GCDCalculator obj = new GCDCalculator();
         
         System.out.println("GCD: " + obj.findGCD(48, 18));  // Output: 6
     }
 }
+/* 
+java GCDCalculator_19.java
+GCD: 6 */
 
 /* 
 a = 48

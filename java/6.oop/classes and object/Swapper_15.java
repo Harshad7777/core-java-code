@@ -2,7 +2,7 @@
 Create a class Swapper with a method swap that swaps the values of two numbers without using a third variable.
 Explanation: Covers mathematical operations for swapping. */
 
-public class Swapper_15 
+class Swapper
 {
 
     public void swap(int a, int b) 
@@ -13,14 +13,18 @@ public class Swapper_15
 
         System.out.println("After swap: a = " + a + ", b = " + b);
     }
-
-    public static void main(String[] args) 
+}
+public class Swapper_15 
+{
+	public static void main(String[] args) 
 	{
-        Swapper_15 obj = new Swapper_15();
+        Swapper obj = new Swapper();
 		
         obj.swap(10, 20);
     }
 }
+	
+
 
 
 /* java Swapper_15.java

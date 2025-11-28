@@ -3,7 +3,7 @@ Create a class Voter with a method isEligible that checks if a person (age provi
 Explanation: Introduces basic logical validation. */
 
 
-public class voter_7
+public class voter
 {
 	public void isEligible(int age)
 	{
@@ -16,12 +16,19 @@ public class voter_7
 			System.out.println("not");
 		}
 	}
+}
 	
+public class voter_7
+{
 	public static void main(String x[])
 	{
-		voter_7 obj = new voter_7();
+		voter obj = new voter();
 		
 		obj.isEligible(17);
 	}
 	
 }
+
+/* 
+java voter_7.java
+not */
