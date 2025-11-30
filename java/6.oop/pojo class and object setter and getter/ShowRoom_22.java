@@ -65,6 +65,7 @@ public class ShowRoom
 		{	
 			System.out.println("vehicle  details");
 			System.out.println("ID:"+vehicle.getId());
+			
 			System.out.println("Name:"+ vehicle.getName());
 			System.out.println("Price:"+ vehicle.getPrice());
 		}
@@ -97,5 +98,11 @@ ID:101
 Name:DEFFENDER
 Price:1.5E7 */
 
+
+/* private → Only the ShowRoom class can access this variable directly.
+
+Vehicle → This is the type (your POJO class).
+
+vehicle → This is the variable name (object reference). */
 
 
