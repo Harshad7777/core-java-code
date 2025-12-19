@@ -22,7 +22,7 @@ import java.util.*;
 			int n = sc.nextInt();
 			
 			int num = n; 
-
+			
 			while(n!=1 && n!=4)
 			{
 				int sum = 0;
@@ -34,8 +34,8 @@ import java.util.*;
 					n/=10; //1
 				}
 				
-			n = sum;
-			System.out.println("next value = "+n) ;
+			    n = sum;
+				System.out.println("next value = "+n) ;
 			}
 			
 			if(n==1)
@@ -57,4 +57,43 @@ next value = 68
 next value = 100
 next value = 1
 Happy Number = 19
+ */
+ /* 
+ public class HappyNumberRange {
+
+    // Method to check happy number
+    static boolean isHappy(int n) {
+        int slow = n, fast = n;
+
+        // Floyd's cycle detection
+        do {
+            slow = sumOfSquares(slow);              // Move 1 step
+            fast = sumOfSquares(sumOfSquares(fast)); // Move 2 steps
+        } while (slow != fast);
+
+        return slow == 1; // If meeting point is 1 → happy number
+    }
+
+    // Method to calculate sum of squares of digits
+    static int sumOfSquares(int n) {
+        int sum = 0;
+        while (n != 0) {
+            int digit = n % 10;
+            sum += digit * digit;
+            n /= 10;
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("Happy Numbers from 1 to 1000:");
+
+        for (int i = 1; i <= 1000; i++) {
+            if (isHappy(i)) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
  */

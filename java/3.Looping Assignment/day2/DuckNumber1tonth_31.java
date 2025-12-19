@@ -4,37 +4,37 @@ Q31. Write a java program to display 1 to nth Duck Number.
 
  */
 
+
 import java.util.*;
-public class DuckNumber1tonth_31
+public class Example31
 {
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number: ");
+		int n = sc.nextInt();
 		
-		System.out.println("enter number");
-		int num = sc.nextInt();
+		boolean flag=false;
 		
-		for(int i=1; i<=num; i++)
+		for(int i=1; i<=n; i++)
 		{
-			boolean duck = false;
-			int i2=i;
-			while(i2>0)
+			int n1=i;
+			while(n1!=0)
 			{
-				
-				if(i2%10==0)
-				{
-					duck = true;
+				if(n1%10==0)
+				{	
+					flag=true;
 					break;
 				}
-				i2/=10;
-			
-			}	
+				n1=n1/10;
 				
-				if(duck)
-				{
-					System.out.print(i2+",");
-				}
-		}
+			}
+			if(flag)
+			{
+				System.out.println(i);
+				flag = false;
+			}
+		}	
 	}
 }
 /* 

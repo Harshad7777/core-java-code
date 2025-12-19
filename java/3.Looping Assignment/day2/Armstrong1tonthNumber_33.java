@@ -4,56 +4,49 @@ Example : A strong number is one in which the factorial sum of the digits equals
 Example : A number is thought of as an Armstrong number if the sum of its own digits raised to the power number of digits gives the number itself.
       For example, 0, 1, 153, 370, 371, 407 are three-digit Armstrong numbers and, 1634, 8208, 9474 are four-digit Armstrong numbers and there are many more.
 */
-
 import java.util.*;
-
-public class Armstrong1tonthNumber_33
+public class Example33
 {
-    public static void main(String x[])
-    {	
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter the number: ");
-        int num = sc.nextInt();
-
-        for (int j = 1; j <= num; j++)
-        {
-            int temp = j;
-            int n = j;
-            int count = 0;
-
-            // Count digits
-            while (n != 0)
-            {
-                n /= 10;
-                count++;
-            }
-
-            int sum = 0;
-            n = j;
-
-            // Calculate Armstrong sum
-            while (n != 0)
-            {
-                int digit = n % 10;
-
-                int pow = 1;
-                for (int i = 1; i <= count; i++)
-                {
-                    pow = pow * digit;
-                }
-
-                sum += pow;
-                n /= 10;
-            }
-
-            // Check Armstrong number
-            if (sum == temp)
-            {
-                System.out.println(j);
-            }
-        }
-    }
+	public static void main(String x[])
+	{
+		int n, temp, rem=0, sum=0, count=0;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter the number: ");
+		n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++)
+		{
+			temp = i;
+			count = 0;
+			int no = temp;
+			while(no!=0)
+			{			
+				count++;
+				no=no/10;	
+			}
+				
+				sum=0;
+				no = temp;
+				while(no!=0)
+				{
+					rem = no%10;
+					int p=1;
+					for(int j=1; j<=count; j++)
+					{
+						p = p*rem;
+					}
+					
+					sum=sum+p;
+					no = no/10;
+				}
+		
+			if(sum==i)
+			{
+				System.out.println(i);
+			}
+		}
+	}
 }
 
 /* 

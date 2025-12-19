@@ -19,8 +19,9 @@ public class SpyNumberorNot_28
 			int num = sc.nextInt();
 			
 			int n = num;
-			int sum=0;
-			int product=1;
+			int sum = 0;
+			int product = 1;
+			
 			while(n!=0)
 			{
 				sum += n%10;

@@ -24,7 +24,7 @@ public class ArmstrongNumberorNot_25
 			count++;  //1,2,3
 		}
 		
-		num=temp;
+		num = temp;
 		while(num>0)
 		{	
 			int digit = num % 10;  //3,5,1
@@ -50,6 +50,13 @@ public class ArmstrongNumberorNot_25
 		}
 	}
 }
+
+/* Digits = 1, 5, 3
+Number of digits = 3
+
+1³ + 5³ + 3³
+= 1 + 125 + 27
+= 153  ✅ */
 
 /*
 import java.util.*;

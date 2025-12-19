@@ -18,7 +18,7 @@ public class sumofallnaturalnumton6
 		
 		while(i<=n)
 		{
-			sum = i + sum;
+			sum += i ;
 			i++;
 		}
 		System.out.println("sum of all natural numbers between 1 to " + n +" is " + sum);

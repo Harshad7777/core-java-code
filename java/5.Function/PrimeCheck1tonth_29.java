@@ -12,14 +12,10 @@ public class PrimeCheck1tonth_29
 		
 		System.out.println(" enter nth number check all prime number before that");
 		
-		int num = sc.nextInt();
-		PrimeCheck1tonth(num);
-	}
-	public static void PrimeCheck1tonth(int num)
-	{
+		int num = sc.nextInt(); //10
+        
 		int count = 0;
-		
-		for(int i=2; i<=num; i++)
+		for(int i=2; i<=num; i++) //i=3
 		{
 			for(int j=1; j<=i; j++)
 			{

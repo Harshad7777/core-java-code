@@ -11,9 +11,9 @@ public class Perfectnumber1ton_30
 
         System.out.println("Enter number: ");
         int num = sc.nextInt();
-
+       
         // Loop from 1 to num
-        for (int i = 1; i <= num; +i++)
+        for (int i = 1; i <= num; i++)
         {
             int sum = 0;
 
@@ -41,7 +41,6 @@ public class Perfectnumber1ton_30
 Examples:
 
 6 ⇒ 1 + 2 + 3 = 6
-
 28 ⇒ 1 + 2 + 4 + 7 + 14 = 28 */
 
 /* 
