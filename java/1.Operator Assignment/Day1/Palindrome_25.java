@@ -1,6 +1,7 @@
 /*
 Q25. Write a java program to check whether number is palindrome or not. 
 */
+
 import java.util.Scanner;
 
 public class Palindrome_25
@@ -20,13 +21,10 @@ public class Palindrome_25
             rev = rev * 10 + rem;
             temp /= 10;
         }
-
         String res = (rev == num) ? "Palindrome" : "Not - Palindrome";
         System.out.println(res);
     }
 }
-
-
 
 /* >javac Palindrome.java
 >java Palindrome

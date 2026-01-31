@@ -17,7 +17,7 @@ public class Day2
 
 		System.out.println("variable before Swapping");
 		System.out.println("a="+ fv + ",b="+sv);
-
+ 
 		int temp = fv;
 		fv = sv;
 		sv= temp;

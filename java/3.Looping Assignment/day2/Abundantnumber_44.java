@@ -24,18 +24,19 @@ public class Abundantnumber_44
             {
                 if (i % j == 0) 
                 {
-                    sum += j;
+                    sum += j; 
                 }
             }
 
             // Check abundant number
             if (sum > i)
             {
-                System.out.println(i + " is Abundant Number (Sum of divisors s= " + sum + ")");
+                System.out.println(i + " is Abundant Number (Sum of divisors = " + sum + ")");
             }
         }	
     }
 }
+
 
 
 /* 

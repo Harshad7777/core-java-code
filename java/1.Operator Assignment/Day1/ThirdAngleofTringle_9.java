@@ -13,7 +13,7 @@ public class ThirdAngleofTringle_9
 		System.out.println("enter second angle:");
 		double angle2 = sc.nextDouble();
 
-		double angle3 = 180 - ( angle1 + angle2);
+		double angle3 = 180 - ( angle1 + angle2 );
 
 		System.out.println("third angle of triangle :"+angle3);
 	}

@@ -1,5 +1,5 @@
 /*
-  Q43. Write a Java program to check whether a given number is a Disarium number or not, and display all Disarium numbers up to n.
+Q43. Write a Java program to check whether a given number is a Disarium number or not, and display all Disarium numbers up to n.
  A Disarium number is a number whose sum of its digits powered with their respective positions is equal to the number itself.
  Example: 135 is a Disarium number because 1¹ + 3² + 5³ = 1 + 9 + 125 = 135.
 Explanation:
@@ -69,7 +69,7 @@ public class Disariumnumberornot43
 {
     public static void main(String x[]) 
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
 
         System.out.println("Enter number: ");
         int num = sc.nextInt(); 
@@ -83,29 +83,29 @@ public class Disariumnumberornot43
             int temp = j;
             while(temp != 0)
             {
+                temp /= 10;
                 count++;
-                temp /= 10;
             }
 
-            int sum = 0;
-            temp = j;
-            int position = count; // RIGHT → LEFT positions
+                int sum = 0;
+                temp = j;
+                int position = count; // RIGHT → LEFT positions
 
-            while(temp != 0)
-            {
-                int digit = temp % 10;
-                
-                // factorial of digit
-                int pow = 1;
-                for(int i = 1; i <= position; i++)
+                while(temp != 0)
                 {
-                    pow *= digit;
-                }
+                    int digit = temp % 10;
+                    
+                    // factorial of digit
+                    int pow = 1;
+                    for(int i = 1; i <= position; i++)
+                    {
+                        pow *= digit;
+                    }
 
-                sum += pow;
-                position--;
-                temp /= 10;
-            }
+                    sum += pow;
+                    position--;
+                    temp /= 10;
+                }
 
             if(sum == j)
             {

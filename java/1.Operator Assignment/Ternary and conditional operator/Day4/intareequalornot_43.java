@@ -17,8 +17,8 @@ public class intareequalornot_43
 		
 		if(num2 == num1)
 		{
-			System.out.println("given two integers are equal");
-		}
+			System.out.println("given two integers are equal"); 
+		}  
 		else
 		{
 			System.out.println("given two integers not are equal");

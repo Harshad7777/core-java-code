@@ -13,12 +13,12 @@ public class ArmstrongNumberorNot_25
 		
 		System.out.println("enter number");
 		int num = sc.nextInt(); //153
-		
+		 
 		int count = 0;
 		int sum = 0;
 		int temp = num ;
 		
-		while(num>0)
+		while(num>0) 
 		{
 			num = num/10; //153, 15, 1
 			count++;  //1,2,3
@@ -33,9 +33,8 @@ public class ArmstrongNumberorNot_25
 			
 			for(int i=1; i<=count; i++)
 				{
-					digitpower = digitpower* digit;
+					digitpower = digitpower * digit;
 				}
-			
 			sum = sum + digitpower;
 			num/=10;
 		}

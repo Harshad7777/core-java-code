@@ -9,8 +9,8 @@
 	public static void main (String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter first 25");
 		
+		System.out.println("enter first 25");
 		int m = sc.nextInt();
 		
 		System.out.println("enter second 12");

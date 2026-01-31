@@ -1,7 +1,5 @@
 //  Q7. Write a java program to calculate the simple intrest. 
 
-
-
 import java.util.Scanner;
 public class CalculateSimpleIntrest_12
 	{
@@ -19,7 +17,7 @@ public class CalculateSimpleIntrest_12
 				double Time = sc.nextDouble ();
 
 				double calculatethesimpleintrest = (PrincipalAmount*Intrest*Time)/100;
-
+				
 				double Amount = PrincipalAmount*Math.pow((1 + Intrest/100),Time);
 				double compundInterest = Amount - PrincipalAmount;
 

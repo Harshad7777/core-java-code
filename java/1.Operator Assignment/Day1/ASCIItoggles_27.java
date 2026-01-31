@@ -17,7 +17,7 @@ public class ASCIItoggles_27
 		
 		System.out.println(result);
 	}
-
+}
 
 /* 
 >javac ASCIItoggles.java

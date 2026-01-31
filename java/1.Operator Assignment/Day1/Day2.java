@@ -39,7 +39,7 @@ public class Day2
 // 	Operator Assignment>
 // 	java Day2
 // 	enter the amount:10000
-// enter the intrest:12
+//  enter the intrest:12
 // 	enter time:4
 // 	simpleintrest is a:4800.0
 // 	compundInterest is a:5735.193600000006

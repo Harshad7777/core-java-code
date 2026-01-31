@@ -12,8 +12,7 @@ public class alphabeticornot_36
 			System.out.println("enter any character");
 			char ch = sc.next().charAt(0);
 			
-			if((ch>='a' && ch<='z')||(ch>'A' && ch<='Z'))
-				
+			if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
 			{
 				System.out.println(ch +" is an Alphabet ");
 			}

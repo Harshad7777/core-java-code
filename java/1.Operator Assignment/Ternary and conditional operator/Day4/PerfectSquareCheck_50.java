@@ -9,7 +9,7 @@ public class PerfectSquareCheck_50
     public static void main(String x[]) 
     {
         Scanner sc = new Scanner(System.in);
-
+ 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 

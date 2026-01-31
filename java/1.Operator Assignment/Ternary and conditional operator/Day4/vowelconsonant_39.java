@@ -14,12 +14,13 @@ public class vowelconsonant_39
 			
 			if(ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <='Z')
 				{
-					if(ch == 'a' || ch=='i'|| ch=='o'|| ch =='u' || ch == 'A' ||ch=='I'||ch=='O'||ch=='U' )
+					if(ch == 'a' || ch=='i'|| ch=='o'|| ch =='u' || ch == 'A' || ch=='I' || ch=='O' || ch=='U' )
 					{
-					System.out.println(ch +" is a vowel");
+						System.out.println(ch +" is a vowel");
 					}
 					else
-					{System.out.println(ch +" is a consonant");
+					{
+						System.out.println(ch +" is a consonant");
 					}
 				}
 			else
@@ -30,20 +31,20 @@ public class vowelconsonant_39
 	}
 	
 	
->javac vowelconsonant.java
->java vowelconsonant
-enter alphabet
-a
-a is a vowel
+// >javac vowelconsonant.java
+// >java vowelconsonant
+// enter alphabet
+// a
+// a is a vowel
 
->java vowelconsonant
-enter alphabet
-^A
-invalid input! please enter an alphabet
+// >java vowelconsonant
+// enter alphabet
+// ^A
+// invalid input! please enter an alphabet
 
->java vowelconsonant
-enter alphabet
-1
-invalid input! please enter an alphabet
+// >java vowelconsonant
+// enter alphabet
+// 1
+// invalid input! please enter an alphabet
 
->
+// >

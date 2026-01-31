@@ -2,7 +2,6 @@
 Q53. Take percentage and income of a student:
 If percentage >= 75 AND income < 200000, print "Eligible"
 
-
 Else "Not Eligible"
 */
 
@@ -19,17 +18,15 @@ public class percentageincomestudent_53
 		System.out.println("enter the income");
 		double income = sc.nextDouble ();
 		
-		String Eligible;
-		
 		if(percentage >= 75 && income < 200000 )
 		{
-			Eligible = "Eligible";
+			String Eligible = "Eligible";
 		}
 		else
 		{
-				Eligible = " not Eligible ";
+			Eligible = " not Eligible ";
 		}
-		System.out.println("accordig percentage and income of a student are" +Eligible);
+		System.out.println("according to percentage and income of a student are" +Eligible);
 	}
 }
 

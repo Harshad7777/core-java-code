@@ -4,25 +4,31 @@ Q18. Write a Java program to convert days to years, month and week.
 
 import java.util.*;
 
-public class dayToyearMonthWeek_18
+public class DayToYearMonthWeek_18
 {
-	public static void main(String x[])
-	{
-		Scanner sc = new Scanner (System.in);
-		
-		System.out.println("enter days");
-		double totaldays = sc.nextInt();
-		
-		
-		double years = totaldays / 365;              // 1 years = 1day
-        double month = (totaldays % 365) / 30;     // Remaining month
-        double week = totaldays % 7;   
-		
-		System.out.println("days to years"+years);
-		System.out.println("remaining"+month);
-		System.out.println("remaining"+week);
-	}
+    public static void main(String x[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter total days: ");
+        int totalDays = sc.nextInt();
+
+        int years = totalDays / 365;
+        int remainingDays = totalDays % 365;
+
+        int months = remainingDays / 30;
+        remainingDays = remainingDays % 30;
+
+        int weeks = remainingDays / 7;
+        int days = remainingDays % 7;
+
+        System.out.println("Years : " + years);
+        System.out.println("Months: " + months);
+        System.out.println("Weeks : " + weeks);
+        System.out.println("Days  : " + days);
+    }
 }
+
 /* 
 >java dayToyearMonthWeek
 enter days

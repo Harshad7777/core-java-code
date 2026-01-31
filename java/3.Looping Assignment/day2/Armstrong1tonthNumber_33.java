@@ -5,7 +5,7 @@ Example : A number is thought of as an Armstrong number if the sum of its own di
       For example, 0, 1, 153, 370, 371, 407 are three-digit Armstrong numbers and, 1634, 8208, 9474 are four-digit Armstrong numbers and there are many more.
 */
 import java.util.*;
-public class Example33
+public class Armstrong1tonthNumber_33
 {
 	public static void main(String x[])
 	{
@@ -22,8 +22,8 @@ public class Example33
 			int no = temp;
 			while(no!=0)
 			{			
+				no=no/10;
 				count++;
-				no=no/10;	
 			}
 				
 				sum=0;

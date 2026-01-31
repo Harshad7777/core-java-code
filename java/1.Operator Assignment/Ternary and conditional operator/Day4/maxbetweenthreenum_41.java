@@ -1,9 +1,6 @@
 /*
 Q41. Write a java program to find maximum between three numbers.
 */
-/*
-Q41. Write a java program to find maximum between three numbers.
-*/
 
 import java.util.*;
 public class maxbetweenthreenum_41
@@ -35,7 +32,6 @@ public class maxbetweenthreenum_41
         {
             max = c;
         }
-        
         System.out.println("Maximum value between three numbers is " + max);
     }
 }

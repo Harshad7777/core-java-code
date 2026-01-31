@@ -3,26 +3,24 @@ Q55. Take a three-digit number and print whether the middle digit is greater tha
 */
 import java.util.*;
 
-public class SwapTwoNumWithoutThirdVariable_15
+public class MiddleDigitCheck_55
 {
     public static void main(String x[])
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter first number (a): ");
-        int a = sc.nextInt();
+        System.out.print("Enter a three-digit number: ");
+        int num = sc.nextInt();
 
-        System.out.println("Enter second number (b): ");
-        int b = sc.nextInt();
+        int first = num / 100;          // first digit
+        int middle = (num / 10) % 10;   // middle digit
+        int last = num % 10;            // last digit
 
-        // Swapping without using third variable
-        a = a + b;  // Step 1
-        b = a - b;  // Step 2
-        a = a - b;  // Step 3
+        String result = (middle > (first + last))
+                        ? "Middle digit is greater than sum of first and last digits"
+                        : "Middle digit is NOT greater than sum of first and last digits";
 
-        System.out.println("After swapping:");
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        System.out.println(result);
     }
 }
 

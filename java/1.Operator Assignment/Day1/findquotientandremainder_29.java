@@ -10,7 +10,8 @@ public class findquotientandremainder_29
  {
 	Scanner sc = new Scanner(System.in);
  
-	double dividend,divisor;
+	double dividend, divisor;
+	
 	System.out.println("enter basic divisor: ");
 	divisor = sc.nextInt();
 	

@@ -10,43 +10,44 @@ public class alphabetdigitcharacter_40
 			
 			System.out.println("enter character");
 			char ch = sc.next().charAt(0);
-		
-					if(ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <='Z' )
-					{
+
+				if(ch >= 'a' && ch <= 'z' || ch >= 'A' &&  ch <='Z' )
+				{
 					System.out.println(ch +" is a character");
-					}
-					else if (ch >='0' )
-					{System.out.println(ch +" is a digit");
-					}
-					else 
-					{
+				}
+				else if (ch >='0' )					
+				{
+					System.out.println(ch +" is a digit");
+				}
+				else 
+				{
 					System.out.println(ch +" is a special character");
-					}
+				}
 		}
 			
 	}
 	
 	
->javac alphabetdigitcharacter.java
->java alphabetdigitcharacter
-enter character
-A
-A is a character
+// >javac alphabetdigitcharacter.java
+// >java alphabetdigitcharacter
+// enter character
+// A
+// A is a character
 
->java alphabetdigitcharacter
-enter character
-1
-1 is a digit
+// >java alphabetdigitcharacter
+// enter character
+// 1
+// 1 is a digit
 
->java alphabetdigitcharacter
-enter character
-@
-@ is a digit
+// >java alphabetdigitcharacter
+// enter character
+// @
+// @ is a digit
 
->java alphabetdigitcharacter
-enter character
-#
-# is a special character
+// >java alphabetdigitcharacter
+// enter character
+// #
+// # is a special character
 
->
+// >
 	
