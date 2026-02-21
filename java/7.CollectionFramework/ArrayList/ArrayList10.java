@@ -27,6 +27,7 @@ public class ArrayList10
 
         // Identify and display duplicate numbers
         System.out.print("Duplicate numbers: ");
+        
         for(int i=0; i<List.size(); i++)
         {
             for(int j=i+1; j<List.size(); j++)
