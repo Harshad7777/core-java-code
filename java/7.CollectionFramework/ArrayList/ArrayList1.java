@@ -6,21 +6,10 @@
 // How to add elements using add()
 // How to traverse an ArrayList using for loop
 
-// Q2. Create an ArrayList of integers and calculate the sum of all elements.
-
-// Explanation:
-// This question practices:
-// Iterating over ArrayList
-// Performing arithmetic operations
-// Using get(index) method
-
-
 import java.util.*;
 
-public class ArrayList1 
-{
-    public static void main(String x[]) 
-    {
+public class ArrayList1 {
+    public static void main(String x[]) {
         ArrayList<Integer> list = new ArrayList<>();
 
         // Adding 5 numbers to the ArrayList
@@ -33,10 +22,15 @@ public class ArrayList1
         System.out.println("Arraylist elements:");
         for (int i = 0; i < list.size(); i++) 
             {
-               System.out.print(list.get(i) + " ");
+                System.out.print(list.get(i) + " ");
             }
+        // Iterator<Integer> it = list.iterator();
+        // while (it.hasNext())
+        // {
+        //    System.out.print(it.next() + " ");
+        // }
     }
 }
 
 // Arraylist elements:
-// 10 20 30 40 50 
+// 10 20 30 40 50

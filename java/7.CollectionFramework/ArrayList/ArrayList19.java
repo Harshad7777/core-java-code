@@ -15,7 +15,7 @@ public class ArrayList19
     {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> al = new ArrayList<>();
-
+        
         System.out.println("enter number:");
         int n = sc.nextInt();
         
@@ -29,7 +29,7 @@ public class ArrayList19
         int end = al.size()-1;
         boolean flag = true;
 
-        for(int i=0; i<al.size()/2; i++)
+        for(int i=0; i<al.size()/2; i++)n 
         {
             if(al.get(start)!=al.get(end))
             {
