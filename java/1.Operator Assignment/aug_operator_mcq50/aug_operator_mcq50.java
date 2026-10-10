@@ -495,6 +495,13 @@ C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 14
+
+
+Java follows operator precedence:
+
+b * c → 3 * 4 = 12
+a / b → 2 / 3 = 0 (integer division)
+a + 12 - 0 → 2 + 12 - 0 = 14
 ----------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 Q24. What will be output of the given code.
@@ -556,6 +563,8 @@ public class aug_operator_mcq50
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 11
+
+Note: & has higher precedence than ^, and ^ has higher precedence than |, so Java evaluates it as:
 ----------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 Q27. What will be output of the given code.
@@ -663,8 +672,6 @@ Q32. What will be output of the given code.
 int x = 5, y = 2;
 System.out.println(x << y >> 1);
 
-
-
 public class aug_operator_mcq50
 {
 	public static void main (String x1[])
@@ -698,6 +705,9 @@ C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 -1
+
+-8 + 7 = -1
+The ~ operator performs bitwise NOT, which is equivalent to taking the 1's complement of the binary representation.
 ----------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 Q34. What will be output of the given code.
@@ -792,6 +802,10 @@ System.out.println(x >>> 2 << 1);
 
 	}
 }
+
+7 >>> 2 << 1
+= 1 << 1
+= 2
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 2
@@ -884,6 +898,12 @@ C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 12
+
+x += x *= x -= 2;
+
+x -= 2  → 2
+x *= 2  → 4
+x += 4  → 8
 ----------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -958,7 +978,7 @@ int x = 3;
 x = x- - + x++ + - -x;
 System.out.println(x);
 
-*/
+
 
 public class aug_operator_mcq50
 {
@@ -970,7 +990,10 @@ System.out.println(x);
 	}
 }
 
-/* 
+3 - (-3) + 4
+= 3 + 3 + 4
+= 10
+
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 10
@@ -1031,6 +1054,12 @@ System.out.println((a &= 3) + (a |= 2) + (a ^= 1));
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 5
+
+(a &= 3) + (a |= 2) + (a ^= 1)
+
+= 0 + 2 + 3
+
+= 5
 ----------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 Q50. What will be output of the given code.
